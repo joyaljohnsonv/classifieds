@@ -1,0 +1,3 @@
+CREATE TABLE `classified`.`users` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `name` VARCHAR(25) NOT NULL , `surname` VARCHAR(25) NOT NULL , `email` VARCHAR(30) NOT NULL , `password` VARCHAR(75) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+CREATE TABLE `classified`.`ads` ( `id` INT(11) NOT NULL AUTO_INCREMENT , `name` VARCHAR(20) NOT NULL , `type` VARCHAR(20) NOT NULL , `cost` INT(20) NOT NULL , `image` BLOB NOT NULL , `capacity` INT(20) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
